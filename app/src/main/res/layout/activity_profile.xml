@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+              android:orientation="vertical"
+
+              tools:context=".ProfileActivity">
+
+    <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/vertical"
+            android:src="@drawable/ic_launcher_background"/>
+
+    <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/vertical"
+            android:layout_marginBottom="@dimen/vertical"
+            android:background="@color/colorPrimaryDark"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/vertical"
+            android:paddingEnd="@dimen/vertical"
+            android:text="@string/track"
+            android:textAppearance="@style/SecondaryText"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/vertical"
+            android:paddingStart="@dimen/vertical"
+            android:paddingEnd="@dimen/vertical"
+            android:text="@string/country"
+            android:textAppearance="@style/SecondaryText"/>
+
+    <TextView
+            android:id="@+id/mail_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/vertical"
+            android:paddingStart="@dimen/vertical"
+            android:paddingEnd="@dimen/vertical"
+            android:text="@string/email"
+            android:textAppearance="@style/SecondaryText"/>
+
+    <TextView
+            android:id="@+id/phone_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/vertical"
+            android:paddingStart="@dimen/vertical"
+            android:paddingEnd="@dimen/vertical"
+            android:text="@string/phone"
+            android:textAppearance="@style/SecondaryText"/>
+
+    <TextView
+            android:id="@+id/slack_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/vertical"
+            android:paddingStart="@dimen/vertical"
+            android:paddingEnd="@dimen/vertical"
+            android:text="@string/slack_user"
+            android:textAppearance="@style/SecondaryText"/>
+</LinearLayout>

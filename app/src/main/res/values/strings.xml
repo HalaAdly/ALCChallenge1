@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Phase1Challenge</string>
+    <string name="alc_phase_one">ALC 4 Phase 1</string>
+    <string name="my_profile">My profile</string>
+    <string name="about">About ALC</string>
+    <string name="name">Hala Adly</string>
+    <string name="track">Track: Android</string>
+    <string name="country">Country: Egypt</string>
+    <string name="email">Email:
+        <font fgcolor='#FF0000ff'>halaadly@gmail.com</font>
+    </string>
+    <string name="phone">Phone number:
+        <font fgcolor='#FF0000ff'>+20104154332</font>
+    </string>
+    <string name="slack_user">Slack Username: @Hala Mohameed</string>
+    <string name="welcome_to_alc_4_0">Welcome to ALC 4.0</string>
+</resources>
